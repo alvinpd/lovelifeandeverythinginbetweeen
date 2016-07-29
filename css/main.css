@@ -195,9 +195,6 @@ pre {
   text-align: center;
   line-height: 3em;
   z-index: 25; }
-  .header-bar.animate {
-    -webkit-animation: slide-fade-in .8s ease;
-    animation: slide-fade-in 0.8s ease; }
   .header-bar h1 {
     font-family: "Galada", cursive;
     font-weight: normal;
@@ -210,6 +207,10 @@ pre {
       font-size: 40px; }
     .header-bar h2 {
       font-size: 16px; } }
+
+.home.animate {
+  -webkit-animation: slide-fade-in .8s ease;
+  animation: slide-fade-in 0.8s ease; }
 
 /**
  * Site footer  **********************************************************
